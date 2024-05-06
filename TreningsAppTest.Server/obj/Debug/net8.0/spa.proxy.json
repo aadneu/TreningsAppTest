@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\aadne\\source\\repos\\TreningsAppTest\\TreningsAppTest.Server\\..\\treningsapptest.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

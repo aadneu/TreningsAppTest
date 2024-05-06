@@ -1,0 +1,260 @@
+{
+  "workouts": [
+    {
+      "id": "2",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-08T00:00:00",
+      "createdAt": "2019-01-11T15:54:46"
+    },
+    {
+      "id": "4",
+      "userId": -1,
+      "activity": "Løping",
+      "duration": 35,
+      "date": "2019-01-02T00:00:00",
+      "createdAt": "2019-01-11T15:57:21"
+    },
+    {
+      "id": "5",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-13T00:00:00",
+      "createdAt": "2019-01-13T14:40:43"
+    },
+    {
+      "id": "6",
+      "userId": -1,
+      "activity": "Styrke",
+      "duration": 80,
+      "date": "2019-01-14T00:00:00",
+      "createdAt": "2019-01-14T19:20:00"
+    },
+    {
+      "id": "7",
+      "userId": -1,
+      "activity": "Styrke",
+      "duration": 75,
+      "date": "2019-01-15T00:00:00",
+      "createdAt": "2019-01-15T12:39:56"
+    },
+    {
+      "id": "8",
+      "userId": -1,
+      "activity": "Roing",
+      "duration": 7,
+      "date": "2019-01-15T00:00:00",
+      "createdAt": "2019-01-15T14:52:46"
+    },
+    {
+      "id": "9",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 60,
+      "date": "2019-01-17T00:00:00",
+      "createdAt": "2019-01-17T09:52:00"
+    },
+    {
+      "id": "10",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-18T00:00:00",
+      "createdAt": "2019-01-18T20:41:05"
+    },
+    {
+      "id": "11",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-20T00:00:00",
+      "createdAt": "2019-01-20T15:33:14"
+    },
+    {
+      "id": "12",
+      "userId": -1,
+      "activity": "Roing",
+      "duration": 7,
+      "date": "2019-01-21T00:00:00",
+      "createdAt": "2019-01-21T14:16:25"
+    },
+    {
+      "id": "13",
+      "userId": -1,
+      "activity": "Styrke",
+      "duration": 80,
+      "date": "2019-01-21T00:00:00",
+      "createdAt": "2019-01-21T17:38:25"
+    },
+    {
+      "id": "14",
+      "userId": -1,
+      "activity": "Styrke",
+      "duration": 80,
+      "date": "2019-01-22T00:00:00",
+      "createdAt": "2019-01-22T18:31:07"
+    },
+    {
+      "id": "15",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 60,
+      "date": "2019-01-24T00:00:00",
+      "createdAt": "2019-01-24T19:22:41"
+    },
+    {
+      "id": "16",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-25T00:00:00",
+      "createdAt": "2019-01-25T20:46:54"
+    },
+    {
+      "id": "17",
+      "userId": -1,
+      "activity": "Styrke",
+      "duration": 100,
+      "date": "2019-01-27T00:00:00",
+      "createdAt": "2019-01-27T17:16:04"
+    },
+    {
+      "id": "18",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-29T00:00:00",
+      "createdAt": "2019-01-29T19:03:02"
+    },
+    {
+      "id": "19",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-01-31T00:00:00",
+      "createdAt": "2019-01-31T19:10:06"
+    },
+    {
+      "id": "20",
+      "userId": -1,
+      "activity": "BJJ",
+      "duration": 90,
+      "date": "2019-02-03T00:00:00",
+      "createdAt": "2019-02-03T15:08:46"
+    },
+    {
+      "id": "cf46",
+      "activity": "Langrenn",
+      "duration": "33",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T08:41:16.096Z",
+      "userId": "offline"
+    },
+    {
+      "id": "1ac4",
+      "activity": "Styrke",
+      "duration": "3",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T08:44:26.575Z",
+      "userId": "offline"
+    },
+    {
+      "id": "2873",
+      "activity": "Styrke",
+      "duration": "333",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T08:44:30.959Z",
+      "userId": "offline"
+    },
+    {
+      "id": "252c",
+      "activity": "Styrke",
+      "duration": "3",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T08:47:56.784Z",
+      "userId": "offline"
+    },
+    {
+      "id": "fff8",
+      "activity": "Klatring",
+      "duration": "3",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T08:48:00.824Z",
+      "userId": "offline"
+    },
+    {
+      "id": "3373",
+      "activity": "Styrke",
+      "duration": "32",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T08:51:18.600Z",
+      "userId": "offline"
+    },
+    {
+      "id": "80d8",
+      "activity": "Langrenn",
+      "duration": "333",
+      "date": "2024-05-02",
+      "createdAt": "2024-05-02T10:40:28.263Z",
+      "userid": "offline"
+    },
+    {
+      "id": "811e",
+      "activity": "Styrke",
+      "duration": "44",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T06:41:01.005Z",
+      "userid": "offline"
+    },
+    {
+      "id": "72bd",
+      "activity": "Fotball",
+      "duration": "33",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T06:44:38.613Z",
+      "userid": "offline"
+    },
+    {
+      "id": "28e3",
+      "activity": "Klatring",
+      "duration": "1",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T08:42:28.646Z",
+      "userid": "offline"
+    },
+    {
+      "id": "6fdd",
+      "activity": "Styrke",
+      "duration": "3",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T08:43:05.338Z",
+      "userid": "offline"
+    },
+    {
+      "id": "6b37",
+      "activity": "Langrenn",
+      "duration": "2",
+      "date": "2024-05-07",
+      "createdAt": "2024-05-06T08:43:17.188Z",
+      "userid": "offline"
+    },
+    {
+      "id": "a43a",
+      "activity": "Styrke",
+      "duration": "3",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T09:39:41.174Z",
+      "userid": "offline"
+    },
+    {
+      "id": "6b17",
+      "activity": "Styrke",
+      "duration": "33",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T09:46:27.083Z",
+      "userid": "offline"
+    }
+  ]
+}
