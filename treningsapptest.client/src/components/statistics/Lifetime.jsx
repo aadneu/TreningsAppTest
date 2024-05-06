@@ -27,6 +27,7 @@ const Lifetime = ({content}) => {
   return (
     <div>
       <p>Totalt antall aktiviteter: {content.length}</p>
+      <p>TEST TEST TEST</p>
         
     <Chart
       chartType="PieChart"

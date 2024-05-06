@@ -8,6 +8,7 @@ import Lifetime from './statistics/Lifetime'
 
 const Statistics = ({content}) => {
 
+  
    
 
   

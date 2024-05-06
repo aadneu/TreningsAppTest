@@ -255,6 +255,46 @@
       "date": "2024-05-06",
       "createdAt": "2024-05-06T09:46:27.083Z",
       "userid": "offline"
+    },
+    {
+      "id": "f39a",
+      "activity": "Klatring",
+      "duration": "33",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T12:33:04.608Z",
+      "userid": "offline"
+    },
+    {
+      "id": "6eb9",
+      "activity": "Styrke",
+      "duration": "213",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T12:33:11.969Z",
+      "userid": "offline"
+    },
+    {
+      "id": "7e99",
+      "activity": "Styrke",
+      "duration": "123",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T12:33:18.953Z",
+      "userid": "offline"
+    },
+    {
+      "id": "7efb",
+      "activity": "Styrke",
+      "duration": "333",
+      "date": "2024-05-06",
+      "createdAt": "2024-05-06T12:33:33.883Z",
+      "userid": "offline"
+    },
+    {
+      "id": "cf55",
+      "activity": "Styrke",
+      "duration": "333",
+      "date": "2024-05-07",
+      "createdAt": "2024-05-06T12:33:54.893Z",
+      "userid": "offline"
     }
   ]
 }
