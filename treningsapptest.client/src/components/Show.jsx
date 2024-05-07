@@ -3,6 +3,7 @@ import useFetch from './useFetch'
 import { useEffect,useState } from 'react'
 import DisplayWorkouts from './DisplayWorkouts'
 import Statistics from './Statistics'
+import Calendar from 'react-calendar'
 
 
 
@@ -27,6 +28,7 @@ const Show = ({userid}) => {
         {/* Denne komponenten viser siste treninger-data og innehar funksjoner for å legge til og slette treninger */}
         <DisplayWorkouts userid={userid} content={content} postFunction={postFunction} deleteFunction={deleteFunction}/>
         <Statistics content={content}/>
+        {/* <Calendar/> */}
     </div>
   )
 }

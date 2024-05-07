@@ -30,7 +30,8 @@ const DisplayWorkouts = ({content, userid,postFunction, deleteFunction}) => {
     }
 
   return (
-    <div className='border p-1 m-1'>
+    <div className=' p-1 m-1'>
+      <h3 className='border-bottom'>Siste fem treninger:</h3>
        {/* Treningsdata er mappet ut i en tabell */}
         { content && (
           <div >
