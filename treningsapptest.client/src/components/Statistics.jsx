@@ -13,7 +13,7 @@ const Statistics = ({content}) => {
        
     <div className=' p-1 m-1'>
       
-      <h3 className='border-bottom'>Statistikk:</h3>
+      <h3 className='border-bottom mt-3'>Statistikk</h3>
       
       <Lifetime content={content}/>
 

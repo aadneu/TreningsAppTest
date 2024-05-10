@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TreningsAppTest.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d9856fb396e2e497ef75cc7ff35b09a3cf8150f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfeaa5b00d2451b02b43ff151a583914e5e58385")]
 [assembly: System.Reflection.AssemblyProductAttribute("TreningsAppTest.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TreningsAppTest.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

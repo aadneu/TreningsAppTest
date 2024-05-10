@@ -10,7 +10,10 @@ const Lifetime = ({content}) => {
    
   //lager et array med hvor mange av hver aktivitet
   const countBy = (arr, prop) => arr.reduce((prev, curr) => (prev[curr[prop]] = ++prev[curr[prop]] || 1, prev), {}); 
+ 
+ 
   
+
   //stats
   const today = new Date();
   const firstDate = content.length ? content.sort((a, b) => new Date(a.date) - new Date(b.date))[0].date : "Loading..."
@@ -41,28 +44,28 @@ const Lifetime = ({content}) => {
   
   return (
     <div>
-      <div className='container'>
-        <div className="row my-1">
-          <div className="col">Totalt antall aktiviteter:</div>
+      <div className='container '>
+        <div className="row ">
+          <div className="col">Antall aktiviteter:</div>
           <div className="col text-end">{activityTotal}</div>
         </div>
-        <div className="row my-1">
-          <div className="col">Første logget aktivitet:</div>
+        <div className="row ">
+          <div className="col">Første logg:</div>
           <div className="col text-end">{new Date(firstDate).toLocaleDateString('no-NO',{ weekday: 'long', day: 'numeric', month: 'short', year: 'numeric' })}</div>
         </div>
-        <div className="row my-1">
+        <div className="row ">
           <div className="col">Total aktivitetstid:</div>
           <div className="col text-end"> {activityDur()} min // {(activityDur()/60).toFixed()} timer</div>
         </div>
-        <div className="row my-1">
+        <div className="row ">
           <div className="col">Snitt per aktivitet:</div>
           <div className="col text-end">{(activityDur()/activityTotal).toFixed()} minutters</div>
         </div>
-        <div className="row my-1">
+        <div className="row ">
           <div className="col">Aktiviteter per uke:</div>
           <div className="col text-end"> {(activityTotal/Week).toFixed(1)}</div>
         </div>
-        <div className="row my-1">
+        <div className="row ">
           <div className="col">Aktiviteter per måned:</div>
           <div className="col text-end"> {(activityTotal/Month).toFixed(1)}</div>
         </div>
@@ -71,7 +74,7 @@ const Lifetime = ({content}) => {
         <Chart
           chartType="PieChart"
           data={pieData}
-          options={{title: 'Aktiviteter'}}
+          options={{title: 'Aktiviteter', backgroundColor: '#f8f9fa'}}
           width={"100%"}
           height={"200px"}
         />

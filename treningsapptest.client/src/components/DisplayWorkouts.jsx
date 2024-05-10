@@ -7,16 +7,16 @@ import AddWorkout from './AddWorkout'
 const DisplayWorkouts = ({content, userid,postFunction, deleteFunction}) => {
 
     const [addMode, setAddMode] = useState(false) //aktiverer addmode som viser frem AddWorkout-componenten
+    const [showCont, setContLength] = useState(5)
     const toggleAdd = () => {
         setAddMode(true)
-        
     }
   
     const [edit, setEdit] = useState(false)
     const toggleEdit = () => {
       setEdit(prevEdit => !prevEdit);
     }
-    const options = { weekday: 'short', day: 'numeric', month: 'short' };
+    const options = { weekday: 'short', day: 'numeric', month: 'short', };
 
     const handleDelete = (id) => {
     let fetchurl =`https://localhost:7211/api/Workouts?userId=${userid}`
@@ -29,28 +29,36 @@ const DisplayWorkouts = ({content, userid,postFunction, deleteFunction}) => {
       setEdit(false)
     }
 
+    const toggleAllWorkouts = () => {
+      setContLength(prevLength => prevLength !== 5 ? 5 : content.length)
+    }
+
+
   return (
-    <div className=' p-1 m-1'>
-      <h3 className='border-bottom'>Siste fem treninger:</h3>
+    <div className='p-1 m-1'>
+     
+        <h3 onClick={toggleAllWorkouts} className='border-bottom' style={{cursor: 'pointer'}}>Treninger</h3>
+        
+       
        {/* Treningsdata er mappet ut i en tabell */}
         { content && (
-          <div >
+          <div className='p-1'>
             {/* HEADERS */}
-            <div className="row font-weight-bold" style={{fontWeight: 'bold'}}>
+            <div className="row " style={{fontWeight: 'bold'}}>
               <div className="col-4">når</div>
-              <div className="col">aktivitet</div>
-              <div className="col">varighet</div>
-              <div className="col"><button onClick={toggleEdit}>rediger</button></div>
+              <div className="col-4">aktivitet</div>
+              <div className="col-1">tid</div>
+              <div onClick={toggleEdit} style={{cursor: 'pointer'}} className="col-1 text-danger text-center">rediger</div>
             </div>
             {/* CONTENT */}
-            {content.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,5).map((trening) => (
-            <div  className="row" key={trening.id}>
-              <div className="col-4">{new Date(trening.date).toLocaleDateString('no-NO', options)}</div>
-              <div className="col">{trening.activity}</div>
-              <div className="col">{trening.duration}</div>
-              <div className="col">
+            {content.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0,showCont).map((trening) => (
+            <div  className="row shadow-sm pb-1 " key={trening.id}>
+              <div className="col-4 ">{new Date(trening.date).toLocaleDateString('no-NO', options)}</div>
+              <div className="col-4">{trening.activity}</div>
+              <div className="col-1">{trening.duration}</div>
+              <div className="col text-center "  style={{fontWeight: 'bold'}}>
                   {/* VISE SLETT KNAPP VISS MAN TRYKKER PÅ REDIGER */}
-                  {edit && <button onClick={() => handleDelete(trening.id)} className=''>x</button> }
+                  {edit && <div onClick={() => handleDelete(trening.id)} style={{cursor: 'pointer'}} className='text-light bg-danger rounded'>x</div> }
               </div>
             </div>
             ))}
@@ -66,9 +74,9 @@ const DisplayWorkouts = ({content, userid,postFunction, deleteFunction}) => {
         }
 
          {addMode ? (<AddWorkout setAddMode={setAddMode} userid={userid} postFunction={postFunction} /> ) 
-              : (<button onClick={toggleAdd} className='btn btn-primary btn-sm'>Legg til trening</button>)
+              : (<div style={{fontWeight: 'bold', cursor: 'pointer'}} onClick={toggleAdd}>Legg til aktivitet</div>)
               }
-       
+        
         
     </div>
   )

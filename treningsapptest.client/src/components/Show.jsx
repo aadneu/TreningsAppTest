@@ -7,6 +7,7 @@ import Calendar from 'react-calendar'
 
 
 
+
 const Show = ({userid}) => {
 
     // Denne komponenten inneholder "state" for appen, og videresender dette.
@@ -24,10 +25,11 @@ const Show = ({userid}) => {
 
    
     return (
-    <div >
+    <div>
         {/* Denne komponenten viser siste treninger-data og innehar funksjoner for å legge til og slette treninger */}
         <DisplayWorkouts userid={userid} content={content} postFunction={postFunction} deleteFunction={deleteFunction}/>
         <Statistics content={content}/>
+       
         {/* <Calendar/> */}
     </div>
   )

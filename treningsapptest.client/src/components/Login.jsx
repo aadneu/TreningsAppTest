@@ -37,27 +37,32 @@ const Login = ({setUserid, setShowUser}) => {
        
     }
     
-  return (
-    <div>
 
-        <form onSubmit={handleClick}>
-            <label htmlFor="inputUsername" className="form-label">Brukernavn</label>
+
+
+
+  return (
+    <div className='container'>
+
+        <form className=' ' onSubmit={handleClick}>
+         
+            <h3>Aktivitetslogger</h3>
+            <div class="form-floating mb-3">
             <input 
-                id='inputUsername'
-                type="text" 
-                className='form-control'
-                required
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}/>
-            
-            <label htmlFor="inputPassword5" className="form-label">Passord</label>
-            <input 
-                id="inputPassword5"
-                type="password" 
-                className='form-control'
                 required
                 value={pw}
-                onChange={(e) => setPw(e.target.value)}/>
+                onChange={(e) => setPw(e.target.value)}
+                type="text" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+                <label for="floatingInput">Brukernavn</label>
+            </div>
+            <div class="form-floating">
+            <input 
+                required
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+                <label for="floatingPassword">Passord</label>
+            </div>
                
 
             <button className='btn mt-2 btn-primary btn-sm'>Logg inn</button>
